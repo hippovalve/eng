@@ -61,9 +61,6 @@
                             <div class="collapse navbar-collapse" id="studioMenu">
                                 <!-- Menu Area Start  -->
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Products <span class="sr-only">(current)</span></a>
-                                    </li>
                                     <!--
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
@@ -77,11 +74,14 @@
                                         </div>
                                     </li>
                                     -->
-                                    <li class="nav-item">
+                                    <li class="nav-item active">
                                         <a class="nav-link" href="about-me.html">Company</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Services</a>
+                                        <a class="nav-link" href="service.html">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="http://us.hippovalve.com/">Products</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="blog.html">Visiting Event</a>
@@ -119,7 +119,7 @@
     <div class="social-sidebar-area">
         <!-- Social Area -->
         <div class="social-info-area">
-            <a href="http://www.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Products"><i class="fa fa-superpowers" aria-hidden="true"></i> <span>HIPPOVALVE Products</span></a>
+            <a href="http://us.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Products"><i class="fa fa-superpowers" aria-hidden="true"></i> <span>HIPPOVALVE Products</span></a>
             <a href="http://tw.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Factory (Taiwan)"><i class="fa fa-glide" aria-hidden="true"></i> <span>HIPPOVALVE Factory (Taiwan)</span></a>
             <a href="http://km.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Knowledge Library"><i class="fa fa-first-order" aria-hidden="true"></i> <span>HIPPOVALVE Knowledge Library</span></a>
             <a href="http://eng.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Engineering"><i class="fa fa-linode" aria-hidden="true"></i> <span>HIPPOVALVE Engineering</span></a>
@@ -130,119 +130,244 @@
     <!-- Project Area Start -->
     <div class="gallery_area clearfix">
         <div class="container-fluid clearfix">
+  
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="about-me-thumb">
+                        <img src="img/bg-img/engineering_review.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="about-content mt-100 mb-100 text-center">
+                        <h2>Engineering, Developing, and System Integrationn Services</h2>
+                        <p>
+HIPPOVALVE Engineering&#8217;s teammembers had many years of experience on mechanical engineering, calculation, simulation, and system integrations of softwares and hardwares incluing smart devices or RFIDs.<BR>
+ </br>
+HIPPO&#8217;s service range includes process-flow calculation, torque sizing, engineering system development by modeling and real testing.<BR>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+  
+            <div class="row justify-content-center">                
+                <!-- ========== Loaders ========== -->
+                <div class="col-10">
+                    <h2>Service Platforms</h2>
+                    <BR>
+                    HIPPOVALVE Engineering can develop software solutions including but not limited under:
+                    <BR><BR>
+                    <!-- Pie Bars Area Start -->
+                    <div class="our-skills-area text-center mb-100">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-service-area text-center mb-100">
+                                    <img src="img/core-img/solution_EBS.png" alt="">
+                                    <h6>Oracle EBS ERP</h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-service-area text-center mb-100">
+                                    <img src="img/core-img/solution_PTC.png" alt="">
+                                    <h6>PTC Windchill PLM</h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-service-area text-center mb-100">
+                                    <img src="img/core-img/solution_DCS.png" alt="">
+                                    <h6>Siemens SIMATIC DCS</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10">
+                    <h2>Service References</h2>
+                    <BR>
+                </div>
+            </div>
+            <!-- ***** Elements Area End ***** -->
+            
             <div class="gallery_menu">
                 <div class="portfolio-menu">
                     <button class="active btn" type="button" data-filter="*">All</button>
-                    <button class="btn" type="button" data-filter=".portraits">Portraits</button>
-                    <button class="btn" type="button" data-filter=".weddings">Weddings</button>
-                    <button class="btn" type="button" data-filter=".studio">Studio</button>
-                    <button class="btn" type="button" data-filter=".fashion">Fashion</button>
-                    <button class="btn" type="button" data-filter=".life">Lifestyle</button>
+                    <button class="btn" type="button" data-filter=".flowcontrol">Flow Control</button>
+                    <button class="btn" type="button" data-filter=".sizing">Torque Sizing</button>
+                    <button class="btn" type="button" data-filter=".strength">Physical Analysis</button>
+                    <button class="btn" type="button" data-filter=".software">Software Development</button>
+                    <button class="btn" type="button" data-filter=".integration">System Integration</button>
                 </div>
             </div>
 
             <div class="row portfolio-column">
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item portraits life">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item sizing software integration">
+                    <img src="img/bg-img/p0.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p0.jpg"><span>Torque Sizing with Oracle</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item flowcontrol">
                     <img src="img/bg-img/p1.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p1.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p1.jpg"><span>Velocity Calculation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item weddings">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item flowcontrol">
                     <img src="img/bg-img/p2.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p2.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p2.jpg"><span>Fluid Flow Simulation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item portraits">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item flowcontrol">
                     <img src="img/bg-img/p3.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p3.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p3.jpg"><span>Gas Flow Simulation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item weddings life">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item strength">
                     <img src="img/bg-img/p4.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p4.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p4.jpg"><span>Grid Analysis</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item weddings">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item flowcontrol">
                     <img src="img/bg-img/p5.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p5.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p5.jpg"><span>Stress Analysis</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item portraits">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item strength">
                     <img src="img/bg-img/p6.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p6.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p6.jpg"><span>Valve Disc Strength Analysis</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item studio">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item strength">
                     <img src="img/bg-img/p7.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p7.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p7.jpg"><span>Fugitive Emission Analysis</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item studio life">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item flowcontrol">
                     <img src="img/bg-img/p8.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p8.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p8.jpg"><span>Flow Simulation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item fashion">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item strength">
                     <img src="img/bg-img/p9.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p9.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p9.jpg"><span>Fire-safe Testing</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item portraits">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item software integration">
                     <img src="img/bg-img/p10.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p10.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p10.jpg"><span>Drawing Lib Integration with Microsoft</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item studio life">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item software flowcontrol">
                     <img src="img/bg-img/p11.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p11.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p11.jpg"><span>Travel Cv% Calculation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item fashion">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item software flowcontrol">
                     <img src="img/bg-img/p12.jpg" alt="">
                     <div class="hover_overlay">
-                        <a class="gallery_img" href="img/bg-img/p12.jpg"><i class="fa fa-eye"></i></a>
+                        <a class="gallery_img" href="img/bg-img/p12.jpg"><span>Flow Working Condition Calculation</span><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item sizing flowcontrol">
+                    <img src="img/bg-img/p13.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p13.jpg"><span>Gravity Torque Calculation</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item sizing flowcontrol">
+                    <img src="img/bg-img/p14.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p14.jpg"><span>Upstream Elbow Torque Calculation</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item sizing flowcontrol">
+                    <img src="img/bg-img/p15.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p15.jpg"><span>Multiple-Pump System Calculation</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item sizing flowcontrol">
+                    <img src="img/bg-img/p16.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p16.jpg"><span>Dynamic Torque Calculation</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item software integration">
+                    <img src="img/bg-img/p17.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p17.jpg"><span>Tracking Analysis</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item strength software integration">
+                    <img src="img/bg-img/p18.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p18.jpg"><span>Regresion Analysis</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item software integration">
+                    <img src="img/bg-img/p19.jpg" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="img/bg-img/p19.jpg"><span>Automation Integration</span><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+
             </div>
 
             <div class="row">
                 <div class="col-12 text-center mt-70">
-                    <a href="#" class="btn studio-btn"><img src="img/core-img/logo-icon.png" alt=""> Load More</a>
+                    <a href="mailto: sales@hippovalve.com" class="btn studio-btn"><img src="img/core-img/logo-icon.png" alt=""> Send Iquiry </a>
                 </div>
             </div>
         </div>
