@@ -24,6 +24,26 @@
 </head>
 
 <body>
+
+<!--  If visitor from Taiwan or China or South-American, redirect to old web site -->
+<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+<script type="text/javascript">
+    if(geoplugin_countryCode() == 'CN')
+    {
+<!--        document.getElementById('yourinfo').innerHTML = '<p>CN IF YES You come from:</p>' + geoplugin_countryCode();    -->
+        window.location.replace("http://tw.hippovalve.com"); 
+    }
+    else if(geoplugin_countryCode() == 'TW')
+    {
+<!--        document.getElementById('yourinfo').innerHTML = '<p>TW IF YES You come from:</p>' + geoplugin_countryCode();    -->
+        window.location.replace("http://tw.hippovalve.com"); 
+    }
+    else
+    {
+<!--        document.getElementById('yourinfo').innerHTML = '<p>You come from:</p>' + geoplugin_countryCode(); -->
+    }
+</script>
+
     <!-- Preloader -->
     <div id="preloader">
         <div class="showbox">

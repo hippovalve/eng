@@ -30,16 +30,17 @@
 <script type="text/javascript">
     if(geoplugin_countryCode() == 'CN')
     {
-        document.getElementById('yourinfo').innerHTML = '<p>CN IF YES You come from:</p>' + geoplugin_countryCode();    
+<!--        document.getElementById('yourinfo').innerHTML = '<p>CN IF YES You come from:</p>' + geoplugin_countryCode();    -->
+        window.location.replace("http://tw.hippovalve.com"); 
     }
     else if(geoplugin_countryCode() == 'TW')
     {
-        document.getElementById('yourinfo').innerHTML = '<p>TW IF YES You come from:</p>' + geoplugin_countryCode();    
+<!--        document.getElementById('yourinfo').innerHTML = '<p>TW IF YES You come from:</p>' + geoplugin_countryCode();    -->
+        window.location.replace("http://tw.hippovalve.com"); 
     }
     else
     {
-        document.getElementById('yourinfo').innerHTML = '<p>You come from:</p>' + geoplugin_countryCode();
-<!--        window.location.replace("http://stackoverflow.com"); -->
+<!--        document.getElementById('yourinfo').innerHTML = '<p>You come from:</p>' + geoplugin_countryCode(); -->
     }
 </script>
 
@@ -138,7 +139,7 @@
     <div class="social-sidebar-area bg-white">
         <!-- Social Area -->
         <div class="social-info-area">
-            <a href="http://us.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Products"><i class="fa fa-superpowers" aria-hidden="true"></i> <span>HIPPOVALVE Products</span></a>
+            <a href="../us/product.html" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Products"><i class="fa fa-superpowers" aria-hidden="true"></i> <span>HIPPOVALVE Products</span></a>
             <a href="about-me.html#CERTIFICATE" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Certificates"><i class="fa fa-glide" aria-hidden="true"></i> <span>HIPPOVALVE Certificates</span></a>
             <a href="http://km.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Knowledge Library"><i class="fa fa-first-order" aria-hidden="true"></i> <span>HIPPOVALVE Knowledge Library</span></a>
             <a href="http://eng.hippovalve.com/" data-toggle="tooltip" data-placement="right" title="HIPPOVALVE Engineering"><i class="fa fa-linode" aria-hidden="true"></i> <span>HIPPOVALVE Engineering</span></a>
@@ -303,7 +304,7 @@
                             <form action="#" method="post">
                                     <p> This will redirect your browsing from HIPPOVALVE Engineering Division's page to HIPOVALVE Hardware Division's page.
                                     <div class="col-12 text-center">
-                                        <a href="http://us.hippovalve.com" class="btn studio-btn"><img src="img/core-img/logo-icon.png" alt=""> Move</a>
+                                        <a href="../us/product.html" class="btn studio-btn"><img src="img/core-img/logo-icon.png" alt="">Browse</a>
                                     </div>
                                 </div>
                             </form>
